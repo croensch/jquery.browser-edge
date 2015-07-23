@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
+		<script type="text/javascript" src="jquery.browser-edge.js"></script>
+		<script type="text/javascript">
+		$(function() {
+			$('body').text(($.browser.edge ? 'edge' : 'not edge') + ' ' + $.browser.version);
+		});
+		</script>
+	</head>
+	<body>
+		<!-- Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.0 -->
+	</body>
+</html>
